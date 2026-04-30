@@ -1,11 +1,18 @@
 {
-  "note": "Dataset mẫu tự tạo để demo. Không phải bộ 600/250 câu chính thức. Hãy thay bằng dataset hợp pháp/chính thức nếu có quyền sử dụng.",
+  "note": "Dataset mẫu tự tạo/licensed-safe để demo MCP. Không phải bộ 600/250 câu chính thức.",
   "oto": [
-    {"question":"Khi gặp đèn đỏ, người lái xe phải làm gì?","choices":["Dừng lại trước vạch dừng","Tăng tốc đi qua","Bấm còi xin đường"],"answer":0,"topic":"quy tắc"},
-    {"question":"Biển báo hình tam giác viền đỏ thường là loại biển gì?","choices":["Biển nguy hiểm/cảnh báo","Biển chỉ dẫn","Biển hiệu lệnh"],"answer":0,"topic":"biển báo"}
+    {"question":"Khi gặp đèn tín hiệu màu đỏ, người lái xe phải làm gì?","choices":["Dừng lại trước vạch dừng","Tăng tốc đi qua nếu đường vắng","Bấm còi rồi đi tiếp","Chỉ nhường xe lớn hơn"],"answer":0,"topic":"quy tắc giao thông"},
+    {"question":"Biển báo hình tam giác viền đỏ nền vàng thường là loại biển gì?","choices":["Biển báo nguy hiểm/cảnh báo","Biển chỉ dẫn","Biển hiệu lệnh","Biển phụ"],"answer":0,"topic":"biển báo"},
+    {"question":"Khi muốn chuyển làn, người lái xe cần làm gì trước tiên?","choices":["Quan sát, bật tín hiệu báo hướng và chỉ chuyển khi an toàn","Chuyển ngay nếu xe mình nhanh hơn","Bấm còi liên tục","Đi sát xe trước"],"answer":0,"topic":"kỹ năng lái xe"},
+    {"question":"Người lái xe có được sử dụng rượu bia khi tham gia giao thông không?","choices":["Không được","Được nếu uống ít","Được khi đi đường ngắn","Chỉ cấm tài xế xe tải"],"answer":0,"topic":"an toàn"},
+    {"question":"Khoảng cách an toàn với xe phía trước phụ thuộc nhiều nhất vào yếu tố nào?","choices":["Tốc độ và điều kiện mặt đường/thời tiết","Màu xe phía trước","Số người trên xe","Loại nhiên liệu"],"answer":0,"topic":"an toàn"},
+    {"question":"Khi đi qua khu dân cư đông người, người lái xe nên làm gì?","choices":["Giảm tốc độ, chú ý quan sát","Tăng tốc để qua nhanh","Bật đèn pha liên tục","Đi giữa đường"],"answer":0,"topic":"quy tắc"}
   ],
   "xe_may": [
-    {"question":"Người điều khiển xe máy có bắt buộc đội mũ bảo hiểm không?","choices":["Có","Không","Chỉ khi đi xa"],"answer":0,"topic":"quy tắc"},
-    {"question":"Khi chuyển hướng, người lái xe cần làm gì?","choices":["Giảm tốc và bật tín hiệu báo hướng rẽ","Rẽ ngay","Bấm còi liên tục"],"answer":0,"topic":"quy tắc"}
+    {"question":"Người điều khiển xe máy có bắt buộc đội mũ bảo hiểm đạt chuẩn không?","choices":["Có","Không","Chỉ khi đi xa","Chỉ khi trời mưa"],"answer":0,"topic":"an toàn"},
+    {"question":"Khi chuyển hướng bằng xe máy, cần làm gì?","choices":["Giảm tốc, quan sát và bật xi nhan/báo hiệu","Rẽ ngay cho nhanh","Chỉ cần bấm còi","Không cần báo hiệu ban ngày"],"answer":0,"topic":"quy tắc"},
+    {"question":"Xe máy có nên đi vào điểm mù của xe tải/xe buýt không?","choices":["Không nên","Nên để tránh gió","Nên khi tắc đường","Chỉ không nên ban đêm"],"answer":0,"topic":"an toàn"},
+    {"question":"Khi trời mưa, người đi xe máy nên làm gì?","choices":["Giảm tốc, tăng khoảng cách, tránh phanh gấp","Đi nhanh hơn để tránh ướt","Phanh gấp thường xuyên","Đi sát lề mọi lúc"],"answer":0,"topic":"kỹ năng"},
+    {"question":"Khi gặp biển STOP, người điều khiển xe phải làm gì?","choices":["Dừng lại quan sát, chỉ đi khi an toàn","Giảm tốc rồi đi luôn","Bấm còi rồi đi","Chỉ dừng nếu có công an"],"answer":0,"topic":"biển báo"}
   ]
 }

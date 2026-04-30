@@ -1,7 +1,9 @@
 {
   "note": "Nội dung tham khảo an toàn mức cơ bản, không thay thế bác sĩ.",
   "items": [
-    {"issue":"ho nhẹ", "suggestions":["Uống nước ấm", "Súc miệng nước muối sinh lý", "Giữ ấm cổ"], "see_doctor":"Sốt cao, khó thở, ho kéo dài, đau ngực hoặc trẻ nhỏ/người già"},
-    {"issue":"đau họng nhẹ", "suggestions":["Uống đủ nước", "Tránh đồ lạnh/cay", "Nghỉ giọng"], "see_doctor":"Đau nhiều, sốt cao, khó nuốt, kéo dài nhiều ngày"}
+    {"issue":"ho nhẹ", "keywords":["ho","ho nhẹ"], "suggestions":["Uống nước ấm", "Súc miệng nước muối sinh lý", "Giữ ấm cổ", "Tránh khói bụi"], "see_doctor":"Sốt cao, khó thở, ho kéo dài, đau ngực hoặc trẻ nhỏ/người già"},
+    {"issue":"đau họng nhẹ", "keywords":["đau họng","rát họng"], "suggestions":["Uống đủ nước", "Tránh đồ lạnh/cay", "Nghỉ giọng", "Súc miệng nước muối sinh lý"], "see_doctor":"Đau nhiều, sốt cao, khó nuốt, kéo dài nhiều ngày"},
+    {"issue":"đầy bụng nhẹ", "keywords":["đầy bụng","khó tiêu"], "suggestions":["Ăn nhẹ", "Đi bộ chậm", "Uống nước ấm", "Tránh nằm ngay sau ăn"], "see_doctor":"Đau bụng dữ dội, nôn liên tục, sốt hoặc đi ngoài ra máu"},
+    {"issue":"mất ngủ nhẹ", "keywords":["mất ngủ","khó ngủ"], "suggestions":["Giảm màn hình trước ngủ", "Giữ phòng ngủ yên tĩnh", "Thư giãn/hít thở chậm", "Tránh cà phê buổi chiều tối"], "see_doctor":"Mất ngủ kéo dài, ảnh hưởng sinh hoạt hoặc kèm lo âu/trầm cảm"}
   ]
 }

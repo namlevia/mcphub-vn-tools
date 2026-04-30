@@ -1,7 +1,9 @@
 {
   "items": [
-    {"name":"Zeus", "summary":"Zeus là thần bầu trời và sấm sét trong thần thoại Hy Lạp, vua của các vị thần Olympus."},
-    {"name":"Athena", "summary":"Athena là nữ thần trí tuệ, chiến lược và thủ công, thường gắn với thành Athens."},
-    {"name":"Hercules", "summary":"Hercules nổi tiếng với sức mạnh phi thường và mười hai kỳ công."}
+    {"name":"Zeus", "summary":"Zeus là thần bầu trời và sấm sét trong thần thoại Hy Lạp, vua của các vị thần Olympus.", "themes":["quyền lực","trách nhiệm","sấm sét"]},
+    {"name":"Athena", "summary":"Athena là nữ thần trí tuệ, chiến lược và thủ công, thường gắn với thành Athens.", "themes":["trí tuệ","chiến lược","bảo hộ"]},
+    {"name":"Hercules", "summary":"Hercules nổi tiếng với sức mạnh phi thường và mười hai kỳ công.", "themes":["dũng cảm","thử thách","chuộc lỗi"]},
+    {"name":"Prometheus", "summary":"Prometheus là Titan trao lửa cho loài người và chịu hình phạt vì hành động đó.", "themes":["hy sinh","tri thức","tự do"]},
+    {"name":"Medusa", "summary":"Medusa là nhân vật có mái tóc rắn, ai nhìn vào mắt nàng sẽ hóa đá; câu chuyện thường gắn với Perseus.", "themes":["bi kịch","lời nguyền","anh hùng"]}
   ]
 }

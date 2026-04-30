@@ -2,6 +2,9 @@
   "note": "Chuyện vui tự tạo, sạch, phù hợp gia đình.",
   "items": [
     {"topic":"học sinh", "text":"Cô hỏi: Em hãy đặt câu với từ 'tiết kiệm'. Trò đáp: Hôm nay em làm bài rất tiết kiệm chữ ạ."},
-    {"topic":"đời thường", "text":"Anh bạn mua đồng hồ báo thức mới. Sáng hôm sau vẫn trễ vì đồng hồ reo đúng giờ, còn anh thì tắt rất đúng kỹ thuật."}
+    {"topic":"học sinh", "text":"Thầy hỏi: Vì sao em đi học muộn? Trò đáp: Dạ vì biển báo ghi 'Trường học, đi chậm' ạ."},
+    {"topic":"đời thường", "text":"Anh bạn mua đồng hồ báo thức mới. Sáng hôm sau vẫn trễ vì đồng hồ reo đúng giờ, còn anh thì tắt rất đúng kỹ thuật."},
+    {"topic":"công nghệ", "text":"Máy tính hỏi người dùng: Bạn có chắc muốn xóa không? Người dùng đáp: Không chắc. Máy tính: Vậy tôi cũng hồi hộp lắm."},
+    {"topic":"gia đình", "text":"Bé hỏi bố: Sao bố biết nhiều vậy? Bố đáp: Vì bố từng hỏi ông nội y chang con bây giờ."}
   ]
 }
