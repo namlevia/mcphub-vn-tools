@@ -167,3 +167,20 @@ python3 scripts/import-driving-dataset.py ./driving-legal.json ./data/driving-of
 - `ma-so-thue`: https://tracuunnt.gdt.gov.vn/tcnnt/mstcn.jsp
 
 Các tool này trả link/hướng dẫn thay vì tự động vượt captcha.
+
+## Dataset source registry
+
+Repo có thêm file rà nguồn dataset:
+
+```text
+data/dataset-sources.vn.json
+```
+
+File này chia nguồn thành:
+
+- `ready_public_sources`: dùng được ngay qua API/RSS/public CSV.
+- `official_manual_sources`: nguồn chính thức nhưng phải tra cứu thủ công vì captcha/session/PII.
+- `needs_legal_dataset_import`: cần dataset hợp pháp do người dùng tự cung cấp/import local.
+- `rejected_or_unreliable_search_hits`: nguồn tìm thấy nhưng không đủ tin cậy/license để copy vào repo.
+
+Nguyên tắc: **không copy dữ liệu không rõ quyền, không bypass captcha, không quảng cáo sample là official full dataset**.

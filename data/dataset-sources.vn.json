@@ -1,0 +1,118 @@
+{
+  "updated": "2026-04-30",
+  "principle": "Prefer official API/RSS/open-data/Creative-Commons/public-domain. Do not copy unknown-license datasets into this public repo. For official sites with captcha/session, expose manual lookup links or local importers only.",
+  "ready_public_sources": [
+    {
+      "domain": "weather",
+      "source": "Open-Meteo",
+      "url": "https://open-meteo.com/",
+      "license_status": "public_api",
+      "use": "direct_api"
+    },
+    {
+      "domain": "exchange_rates",
+      "source": "open.er-api.com",
+      "url": "https://open.er-api.com/",
+      "license_status": "public_api_with_rate_limits",
+      "use": "direct_api"
+    },
+    {
+      "domain": "crypto",
+      "source": "CoinGecko Simple Price API",
+      "url": "https://www.coingecko.com/en/api",
+      "license_status": "public_api_with_rate_limits",
+      "use": "direct_api"
+    },
+    {
+      "domain": "encyclopedia",
+      "source": "Vietnamese Wikipedia API",
+      "url": "https://vi.wikipedia.org/w/api.php",
+      "license_status": "CC BY-SA content; link/attribute source",
+      "use": "direct_api_with_attribution"
+    },
+    {
+      "domain": "news",
+      "source": "VnExpress RSS",
+      "url": "https://vnexpress.net/rss",
+      "license_status": "public_rss; respect publisher terms",
+      "use": "rss_titles_summaries_links"
+    },
+    {
+      "domain": "news",
+      "source": "Tuổi Trẻ RSS",
+      "url": "https://tuoitre.vn/rss.htm",
+      "license_status": "public_rss; respect publisher terms",
+      "use": "rss_titles_summaries_links"
+    },
+    {
+      "domain": "stocks_international",
+      "source": "Stooq CSV",
+      "url": "https://stooq.com/q/l/",
+      "license_status": "public_csv; check terms for production",
+      "use": "direct_csv"
+    }
+  ],
+  "official_manual_sources": [
+    {
+      "domain": "phat_nguoi",
+      "source": "Cục Cảnh sát giao thông",
+      "url": "https://www.csgt.vn/tra-cuu-phat-nguoi",
+      "reason": "Official lookup, may use captcha/session; no bypass.",
+      "repo_behavior": "Return official link and step-by-step manual lookup guidance."
+    },
+    {
+      "domain": "ma_so_thue",
+      "source": "Cục Thuế - Bộ Tài Chính",
+      "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstcn.jsp",
+      "reason": "Official lookup, may use verification code/captcha and personal data; no scraping/bypass.",
+      "repo_behavior": "Return official link and manual lookup guidance."
+    },
+    {
+      "domain": "tuyen_sinh",
+      "source": "Bộ GDĐT and official university admissions pages",
+      "url": "https://moet.gov.vn/",
+      "reason": "No reliable open API found; admissions data changes by school/year.",
+      "repo_behavior": "Link official ministry/school pages, optionally import local legally obtained CSV/JSON."
+    }
+  ],
+  "needs_legal_dataset_import": [
+    {
+      "domain": "600_cau_ly_thuyet_o_to",
+      "acceptable_sources": ["Officially provided dataset with permission", "User-owned licensed JSON/CSV/PDF converted locally"],
+      "not_accepted": ["Scribd mirrors", "Random driving-school PDFs without redistribution license", "Copied app contents"],
+      "repo_behavior": "Keep sample dataset only; provide importer scripts for legal local data."
+    },
+    {
+      "domain": "250_cau_ly_thuyet_xe_may",
+      "acceptable_sources": ["Officially provided dataset with permission", "User-owned licensed JSON/CSV/PDF converted locally"],
+      "not_accepted": ["Scribd mirrors", "Random reposts without license", "Copied app contents"],
+      "repo_behavior": "Keep sample dataset only; provide importer scripts for legal local data."
+    },
+    {
+      "domain": "folk_remedies",
+      "acceptable_sources": ["Self-authored safety-first content", "CC/public-domain medical education material with attribution"],
+      "not_accepted": ["Unverified cure claims", "Medical advice copied from proprietary sites"],
+      "repo_behavior": "Use self-authored low-risk guidance with doctor disclaimer."
+    },
+    {
+      "domain": "vietnamese_jokes",
+      "acceptable_sources": ["Self-authored jokes", "Clearly public-domain/CC jokes with attribution"],
+      "not_accepted": ["Copied joke collections from sites without license"],
+      "repo_behavior": "Use self-authored family-safe jokes."
+    }
+  ],
+  "rejected_or_unreliable_search_hits": [
+    {
+      "source": "data.gov.vn search results",
+      "reason": "Search returned spam/casino-injected pages for relevant queries; do not rely on these results without manual verification."
+    },
+    {
+      "source": "Scribd / Slideshare / random PDF mirrors for driving questions",
+      "reason": "May contain the desired questions but redistribution license is unclear; do not commit copied content."
+    },
+    {
+      "source": "Third-party tax/admission aggregators",
+      "reason": "Useful for discovery, but not official dataset source and may have proprietary content."
+    }
+  ]
+}
