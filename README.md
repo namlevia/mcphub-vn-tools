@@ -87,7 +87,7 @@ volumes:
 - `ma-so-thue`
   - `ma-so-thue-huong-dan-tra-cuu`
 - `phat-nguoi`
-  - `phat-nguoi-huong-dan-tra-cuu`
+  - `phat-nguoi-tra-cuu`
 
 Lưu ý: bói/phong thủy/thần số học là giải trí/tham khảo; luật/sức khỏe không thay thế chuyên gia.
 
