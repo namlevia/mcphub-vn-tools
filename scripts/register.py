@@ -14,7 +14,8 @@ st,raw=req('POST','/auth/login',body={'username':USER,'password':PASS}); token=j
 servers = {
  'vn-public-mcp.js':['thoi-tiet','ty-gia','crypto','tin-tuc','xo-so','lich','gio-the-gioi','ma-qr','tien-ich','mau-sac'],
  'vn-role-mcp.js':['gia-vang-do-la','bach-khoa','day-nau-an','ke-chuyen-cho-be','gia-su','du-lich','suc-khoe'],
- 'vn-life-mcp.js':['xem-boi','than-so-hoc','phong-thuy','nau-an','hoc-ngoai-ngu','tu-van-nghe-nghiep','tu-van-luat','ly-thuyet-lai-xe','ma-so-thue','phat-nguoi'],
+ 'vn-life-mcp.js':['xem-boi','than-so-hoc','phong-thuy','nau-an','hoc-ngoai-ngu','tu-van-nghe-nghiep','tu-van-luat','ly-thuyet-lai-xe','ma-so-thue'],
+ 'phat-nguoi-mcp.js':['phat-nguoi'],
  'vn-photo-complete-mcp.js':['gia-su-tieng-anh','gia-su-tieng-y','gia-su-tieng-nhat','gia-su-tieng-thai','gia-su-tieng-indo','gia-su-tieng-phap','gia-su-tieng-tbn','gia-su-tieng-han','gia-su-tieng-viet','gia-su-tieng-ma-lai','gia-su-tieng-duc','gia-su-tieng-nga','gia-su-tieng-trung','gia-su-tieng-an-do','gia-su-tieng-bdn','gia-su-mon-toan','gia-su-mon-van','gia-su-vat-ly','gia-su-mon-sinh','gia-su-mon-hoa','bai-thuoc-dan-gian','tieu-lam-viet-nam','than-thoai-hy-lap','tuyen-sinh-2026','thong-tin-chung-khoan','tim-kiem-google','tu-van-luat-dat-dai','tu-van-luat-dan-su','tu-van-luat-doanh-nghiep','600-cau-ly-thuyet-o-to','250-cau-ly-thuyet-xe-may']
 }
 for script,names in servers.items():
