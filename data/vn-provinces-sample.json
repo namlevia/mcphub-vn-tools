@@ -1,0 +1,25 @@
+{
+  "note": "Danh sách tỉnh/thành cấp 1 Việt Nam bản rút gọn, tự biên soạn để demo. Với production nên dùng nguồn hành chính chính thức hoặc dataset có license rõ.",
+  "items": [
+    {"name":"Hà Nội","type":"thành phố trực thuộc trung ương","region":"Đồng bằng sông Hồng"},
+    {"name":"Thành phố Hồ Chí Minh","type":"thành phố trực thuộc trung ương","region":"Đông Nam Bộ"},
+    {"name":"Đà Nẵng","type":"thành phố trực thuộc trung ương","region":"Duyên hải Nam Trung Bộ"},
+    {"name":"Hải Phòng","type":"thành phố trực thuộc trung ương","region":"Đồng bằng sông Hồng"},
+    {"name":"Cần Thơ","type":"thành phố trực thuộc trung ương","region":"Đồng bằng sông Cửu Long"},
+    {"name":"Huế","type":"thành phố trực thuộc trung ương","region":"Bắc Trung Bộ"},
+    {"name":"An Giang","type":"tỉnh","region":"Đồng bằng sông Cửu Long"},
+    {"name":"Bắc Ninh","type":"tỉnh","region":"Đồng bằng sông Hồng"},
+    {"name":"Cà Mau","type":"tỉnh","region":"Đồng bằng sông Cửu Long"},
+    {"name":"Đồng Nai","type":"tỉnh","region":"Đông Nam Bộ"},
+    {"name":"Gia Lai","type":"tỉnh","region":"Tây Nguyên"},
+    {"name":"Khánh Hòa","type":"tỉnh","region":"Duyên hải Nam Trung Bộ"},
+    {"name":"Lâm Đồng","type":"tỉnh","region":"Tây Nguyên"},
+    {"name":"Nghệ An","type":"tỉnh","region":"Bắc Trung Bộ"},
+    {"name":"Quảng Ninh","type":"tỉnh","region":"Đông Bắc Bộ"},
+    {"name":"Thanh Hóa","type":"tỉnh","region":"Bắc Trung Bộ"}
+  ],
+  "candidate_full_sources": [
+    {"name":"thanglequoc/vietnamese-provinces-database","url":"https://github.com/thanglequoc/vietnamese-provinces-database","note":"Có dữ liệu hành chính VN; cần kiểm tra license trước khi copy/redistribute."},
+    {"name":"navuitag/dvhcvn","url":"https://github.com/navuitag/dvhcvn","note":"Có đơn vị hành chính + postcode; cần kiểm tra license/source trước production."}
+  ]
+}

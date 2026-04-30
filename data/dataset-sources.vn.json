@@ -50,6 +50,41 @@
       "url": "https://stooq.com/q/l/",
       "license_status": "public_csv; check terms for production",
       "use": "direct_csv"
+    },
+    {
+      "domain": "vn_public_holidays",
+      "source": "Nager.Date",
+      "url": "https://date.nager.at/api/v3/PublicHolidays/{year}/VN",
+      "license_status": "open-source/public API; check terms",
+      "use": "direct_api"
+    },
+    {
+      "domain": "vn_banks_bin",
+      "source": "VietQR API/docs",
+      "url": "https://api.vietqr.vn/en",
+      "license_status": "public docs/API; verify terms",
+      "use": "adapter_candidate"
+    },
+    {
+      "domain": "vn_administrative_units",
+      "source": "GitHub public datasets candidates",
+      "url": "https://github.com/topics/vietnam-administrative-units",
+      "license_status": "verify per repository before copying",
+      "use": "source_registry_only"
+    },
+    {
+      "domain": "countries_currencies",
+      "source": "REST Countries",
+      "url": "https://restcountries.com/",
+      "license_status": "public API / MPL-2.0 repo; check production terms",
+      "use": "direct_api_candidate"
+    },
+    {
+      "domain": "air_quality",
+      "source": "OpenAQ",
+      "url": "https://docs.openaq.org/about/about",
+      "license_status": "public/open data; API key may be required",
+      "use": "direct_api_candidate"
     }
   ],
   "official_manual_sources": [
@@ -78,26 +113,51 @@
   "needs_legal_dataset_import": [
     {
       "domain": "600_cau_ly_thuyet_o_to",
-      "acceptable_sources": ["Officially provided dataset with permission", "User-owned licensed JSON/CSV/PDF converted locally"],
-      "not_accepted": ["Scribd mirrors", "Random driving-school PDFs without redistribution license", "Copied app contents"],
+      "acceptable_sources": [
+        "Officially provided dataset with permission",
+        "User-owned licensed JSON/CSV/PDF converted locally"
+      ],
+      "not_accepted": [
+        "Scribd mirrors",
+        "Random driving-school PDFs without redistribution license",
+        "Copied app contents"
+      ],
       "repo_behavior": "Keep sample dataset only; provide importer scripts for legal local data."
     },
     {
       "domain": "250_cau_ly_thuyet_xe_may",
-      "acceptable_sources": ["Officially provided dataset with permission", "User-owned licensed JSON/CSV/PDF converted locally"],
-      "not_accepted": ["Scribd mirrors", "Random reposts without license", "Copied app contents"],
+      "acceptable_sources": [
+        "Officially provided dataset with permission",
+        "User-owned licensed JSON/CSV/PDF converted locally"
+      ],
+      "not_accepted": [
+        "Scribd mirrors",
+        "Random reposts without license",
+        "Copied app contents"
+      ],
       "repo_behavior": "Keep sample dataset only; provide importer scripts for legal local data."
     },
     {
       "domain": "folk_remedies",
-      "acceptable_sources": ["Self-authored safety-first content", "CC/public-domain medical education material with attribution"],
-      "not_accepted": ["Unverified cure claims", "Medical advice copied from proprietary sites"],
+      "acceptable_sources": [
+        "Self-authored safety-first content",
+        "CC/public-domain medical education material with attribution"
+      ],
+      "not_accepted": [
+        "Unverified cure claims",
+        "Medical advice copied from proprietary sites"
+      ],
       "repo_behavior": "Use self-authored low-risk guidance with doctor disclaimer."
     },
     {
       "domain": "vietnamese_jokes",
-      "acceptable_sources": ["Self-authored jokes", "Clearly public-domain/CC jokes with attribution"],
-      "not_accepted": ["Copied joke collections from sites without license"],
+      "acceptable_sources": [
+        "Self-authored jokes",
+        "Clearly public-domain/CC jokes with attribution"
+      ],
+      "not_accepted": [
+        "Copied joke collections from sites without license"
+      ],
       "repo_behavior": "Use self-authored family-safe jokes."
     }
   ],

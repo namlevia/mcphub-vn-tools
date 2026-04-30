@@ -184,3 +184,22 @@ File này chia nguồn thành:
 - `rejected_or_unreliable_search_hits`: nguồn tìm thấy nhưng không đủ tin cậy/license để copy vào repo.
 
 Nguyên tắc: **không copy dữ liệu không rõ quyền, không bypass captcha, không quảng cáo sample là official full dataset**.
+
+## Dataset/source additions
+
+Các file nguồn/dataset bổ sung:
+
+```text
+data/vn-provinces-sample.json
+data/vn-holidays-sources.json
+data/vn-banks-sources.json
+data/open-data-sources.global.json
+```
+
+Gợi ý tool có thể thêm tiếp:
+
+- `ngay-le-viet-nam`: gọi Nager.Date API.
+- `tinh-thanh-viet-nam`: tra cứu tỉnh/thành từ sample hoặc dataset hành chính có license rõ.
+- `ngan-hang-viet-nam`: adapter VietQR/BIN sau khi xác nhận điều khoản.
+- `quoc-gia-tien-te`: gọi REST Countries.
+- `chat-luong-khong-khi`: gọi OpenAQ nếu có API key/điều khoản phù hợp.

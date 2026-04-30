@@ -1,0 +1,10 @@
+{
+  "note": "Nguồn open/public API bổ sung có thể biến thành MCP tools sau.",
+  "sources": [
+    {"domain":"public_holidays","name":"Nager.Date","url":"https://date.nager.at/Api","use":"holiday lookup by country/year"},
+    {"domain":"countries","name":"REST Countries","url":"https://restcountries.com/","use":"countries/currencies/languages/capitals"},
+    {"domain":"air_quality","name":"OpenAQ","url":"https://docs.openaq.org/about/about","use":"air quality data; API key may be required for current versions"},
+    {"domain":"world_bank","name":"World Bank Data API","url":"https://datahelpdesk.worldbank.org/knowledgebase/articles/889392","use":"macro/economic indicators"},
+    {"domain":"geocoding","name":"OpenStreetMap Nominatim","url":"https://nominatim.org/release-docs/latest/api/Overview/","use":"geocoding; strict usage policy"}
+  ]
+}

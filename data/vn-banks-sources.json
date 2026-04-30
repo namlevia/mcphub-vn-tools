@@ -1,0 +1,8 @@
+{
+  "note": "Danh sách ngân hàng/BIN nên lấy qua nguồn public API/official docs thay vì copy không rõ quyền.",
+  "sources": [
+    {"name":"VietQR API docs","url":"https://api.vietqr.vn/en","access":"public API/docs; check terms"},
+    {"name":"VietQR homepage","url":"https://vietqr.net/","access":"public docs; check terms"},
+    {"name":"vietqr_core SupportedBank enum","url":"https://pub.dev/documentation/vietqr_core/latest/vietqr_core/SupportedBank.html","access":"open-source package docs; verify package license before copying list"}
+  ]
+}
