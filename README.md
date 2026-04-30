@@ -203,3 +203,25 @@ Gợi ý tool có thể thêm tiếp:
 - `ngan-hang-viet-nam`: adapter VietQR/BIN sau khi xác nhận điều khoản.
 - `quoc-gia-tien-te`: gọi REST Countries.
 - `chat-luong-khong-khi`: gọi OpenAQ nếu có API key/điều khoản phù hợp.
+
+## Phạt nguội CSGT experimental
+
+Thêm MCP server:
+
+```text
+phat-nguoi
+```
+
+Tool:
+
+```text
+phat-nguoi-tra-cuu
+```
+
+Nguồn:
+
+```text
+https://www.csgt.vn/tra-cuu-phat-nguoi
+```
+
+Tool này port ý tưởng từ Home Assistant blueprint của `luuquangvu/tutorials`: lấy CSRF, reCAPTCHA v3 token và gọi endpoint CSGT. Đây là **best-effort/experimental**, vì CSGT có reCAPTCHA v3, chống bot và giới hạn tra cứu/ngày. Không nên spam; nếu lỗi 422/429 hãy tra thủ công hoặc thử lại sau.
