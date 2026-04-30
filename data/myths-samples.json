@@ -1,0 +1,7 @@
+{
+  "items": [
+    {"name":"Zeus", "summary":"Zeus là thần bầu trời và sấm sét trong thần thoại Hy Lạp, vua của các vị thần Olympus."},
+    {"name":"Athena", "summary":"Athena là nữ thần trí tuệ, chiến lược và thủ công, thường gắn với thành Athens."},
+    {"name":"Hercules", "summary":"Hercules nổi tiếng với sức mạnh phi thường và mười hai kỳ công."}
+  ]
+}

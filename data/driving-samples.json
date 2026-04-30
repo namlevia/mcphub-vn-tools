@@ -1,0 +1,11 @@
+{
+  "note": "Dataset mẫu tự tạo để demo. Không phải bộ 600/250 câu chính thức. Hãy thay bằng dataset hợp pháp/chính thức nếu có quyền sử dụng.",
+  "oto": [
+    {"question":"Khi gặp đèn đỏ, người lái xe phải làm gì?","choices":["Dừng lại trước vạch dừng","Tăng tốc đi qua","Bấm còi xin đường"],"answer":0,"topic":"quy tắc"},
+    {"question":"Biển báo hình tam giác viền đỏ thường là loại biển gì?","choices":["Biển nguy hiểm/cảnh báo","Biển chỉ dẫn","Biển hiệu lệnh"],"answer":0,"topic":"biển báo"}
+  ],
+  "xe_may": [
+    {"question":"Người điều khiển xe máy có bắt buộc đội mũ bảo hiểm không?","choices":["Có","Không","Chỉ khi đi xa"],"answer":0,"topic":"quy tắc"},
+    {"question":"Khi chuyển hướng, người lái xe cần làm gì?","choices":["Giảm tốc và bật tín hiệu báo hướng rẽ","Rẽ ngay","Bấm còi liên tục"],"answer":0,"topic":"quy tắc"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "note": "Nội dung tham khảo an toàn mức cơ bản, không thay thế bác sĩ.",
+  "items": [
+    {"issue":"ho nhẹ", "suggestions":["Uống nước ấm", "Súc miệng nước muối sinh lý", "Giữ ấm cổ"], "see_doctor":"Sốt cao, khó thở, ho kéo dài, đau ngực hoặc trẻ nhỏ/người già"},
+    {"issue":"đau họng nhẹ", "suggestions":["Uống đủ nước", "Tránh đồ lạnh/cay", "Nghỉ giọng"], "see_doctor":"Đau nhiều, sốt cao, khó nuốt, kéo dài nhiều ngày"}
+  ]
+}

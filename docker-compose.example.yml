@@ -1,0 +1,7 @@
+services:
+  mcphub:
+    # Dùng image MCPHub của bạn, ví dụ xiaozhi-mcphub:playwright
+    image: xiaozhi-mcphub:playwright
+    volumes:
+      - ./custom-mcp:/app/custom-mcp:ro
+      - ./data:/app/custom-mcp-data:ro
