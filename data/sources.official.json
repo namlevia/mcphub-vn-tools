@@ -1,0 +1,17 @@
+{
+  "policy": "Only use sources with public API/RSS or explicit permission. Do not bypass captcha/paywalls/terms. Datasets with unclear copyright must be imported locally by the user and not committed.",
+  "sources": [
+    {"tool":"thoi-tiet","name":"Open-Meteo","url":"https://open-meteo.com/","access":"direct_api","notes":"Public weather/geocoding API."},
+    {"tool":"ty-gia","name":"Open Exchange Rates mirror / ER API","url":"https://open.er-api.com/","access":"direct_api","notes":"Public exchange endpoint used for VND rates."},
+    {"tool":"crypto","name":"CoinGecko Simple Price","url":"https://www.coingecko.com/en/api","access":"direct_api","notes":"Public API with rate limits."},
+    {"tool":"tin-tuc","name":"VnExpress RSS","url":"https://vnexpress.net/rss","access":"public_rss","notes":"RSS feed; respect publisher terms."},
+    {"tool":"tin-tuc","name":"Tuổi Trẻ RSS","url":"https://tuoitre.vn/rss.htm","access":"public_rss","notes":"RSS feed; respect publisher terms."},
+    {"tool":"bach-khoa","name":"Wikipedia API tiếng Việt","url":"https://vi.wikipedia.org/w/api.php","access":"direct_api","notes":"Use Wikipedia API and attribution links."},
+    {"tool":"phat-nguoi","name":"Cục Cảnh sát giao thông","url":"https://www.csgt.vn/tra-cuu-phat-nguoi","access":"manual_lookup","notes":"Official lookup may use captcha/session. Do not bypass."},
+    {"tool":"ma-so-thue","name":"Cục Thuế - Bộ Tài Chính","url":"https://tracuunnt.gdt.gov.vn/tcnnt/mstcn.jsp","access":"manual_lookup","notes":"Official lookup may use verification code/captcha. Do not bypass."},
+    {"tool":"600-cau-ly-thuyet-o-to","name":"Official driving theory dataset","url":"","access":"needs_dataset","notes":"Import only a dataset the user has legal right to use/share."},
+    {"tool":"250-cau-ly-thuyet-xe-may","name":"Official motorbike theory dataset","url":"","access":"needs_dataset","notes":"Import only a dataset the user has legal right to use/share."},
+    {"tool":"tuyen-sinh-2026","name":"Bộ GDĐT / official school admissions pages","url":"https://moet.gov.vn/","access":"manual_or_official_pages","notes":"Prefer official ministry/school pages; do not republish proprietary aggregations."},
+    {"tool":"thong-tin-chung-khoan","name":"Stooq","url":"https://stooq.com/","access":"public_csv","notes":"International ticker CSV; Vietnam market needs a licensed/public source."}
+  ]
+}

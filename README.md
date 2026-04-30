@@ -128,3 +128,42 @@ Repo chỉ kèm dataset mẫu tự tạo/licensed-safe để demo:
 - `data/myths-samples.json`
 
 Các bộ dữ liệu như 600 câu ô tô/250 câu xe máy, tuyển sinh, luật, mã số thuế, phạt nguội... cần nguồn chính thức hoặc dữ liệu có quyền sử dụng. Không bypass captcha/paywall/điều khoản dịch vụ.
+
+---
+
+# Chính sách nguồn chính thức / hợp pháp
+
+Repo này ưu tiên nguồn hợp pháp:
+
+- API/RSS public có điều khoản cho phép dùng.
+- Trang chính thức nhưng có captcha/session thì **không bypass**.
+- Dataset không rõ bản quyền thì **không commit vào repo**; người dùng tự import local nếu có quyền.
+
+Xem registry nguồn:
+
+```text
+data/sources.official.json
+```
+
+## Import dataset hợp pháp
+
+Import JSON bất kỳ:
+
+```bash
+python3 scripts/import-json-dataset.py ./my-dataset.json ./data/my-dataset.local.json
+```
+
+Import bộ câu hỏi lái xe hợp pháp về format chuẩn:
+
+```bash
+python3 scripts/import-driving-dataset.py ./driving-legal.json ./data/driving-official.local.json
+```
+
+> Không commit dữ liệu có bản quyền/riêng tư nếu bạn không có quyền phân phối.
+
+## Các tool dùng manual lookup vì nguồn chính thức có captcha/session
+
+- `phat-nguoi`: https://www.csgt.vn/tra-cuu-phat-nguoi
+- `ma-so-thue`: https://tracuunnt.gdt.gov.vn/tcnnt/mstcn.jsp
+
+Các tool này trả link/hướng dẫn thay vì tự động vượt captcha.
